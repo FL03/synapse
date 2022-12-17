@@ -101,7 +101,7 @@ optional = false
 python-versions = ">=3.6.0"
 
 [package.extras]
-unicode_backport = ["unicodedata2"]
+unicode-backport = ["unicodedata2"]
 
 [[package]]
 name = "click"
@@ -429,7 +429,7 @@ python-versions = "*"
 [package.extras]
 argon2 = ["argon2-cffi (>=18.2.0)"]
 bcrypt = ["bcrypt (>=3.1.0)"]
-build_docs = ["cloud-sptheme (>=1.10.1)", "sphinx (>=1.6)", "sphinxcontrib-fulltoc (>=1.2.0)"]
+build-docs = ["cloud-sptheme (>=1.10.1)", "sphinx (>=1.6)", "sphinxcontrib-fulltoc (>=1.2.0)"]
 totp = ["cryptography"]
 
 [[package]]
@@ -574,7 +574,7 @@ urllib3 = ">=1.21.1,<1.27"
 
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
-use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
+use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "rfc3986"
@@ -634,7 +634,7 @@ full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyam
 
 [[package]]
 name = "strawberry-graphql"
-version = "0.146.0"
+version = "0.151.0"
 description = "A library for creating GraphQL APIs"
 category = "main"
 optional = false
@@ -804,7 +804,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.12"
-content-hash = "9207d3b3dd3c20b957f04999f3265a51a1167a36a20c4b2ac11d9772291dc455"
+content-hash = "a661aeb8e9cd104efb84499fcc9d9450878e5ca3f927054a0c5ddff674bbb627"
 
 [metadata.files]
 aiosqlite = [
@@ -1405,8 +1405,8 @@ starlette = [
     {file = "starlette-0.22.0.tar.gz", hash = "sha256:b092cbc365bea34dd6840b42861bdabb2f507f8671e642e8272d2442e08ea4ff"},
 ]
 strawberry-graphql = [
-    {file = "strawberry_graphql-0.146.0-py3-none-any.whl", hash = "sha256:30f5cf82001eb816a73ade4431fb8df902ed361d12a2697a4dd574c3e8f22315"},
-    {file = "strawberry_graphql-0.146.0.tar.gz", hash = "sha256:bfea6b0b873e3365a1a47c30f577f21be4c2eb40dd0e62ece840d5c44525230a"},
+    {file = "strawberry_graphql-0.151.0-py3-none-any.whl", hash = "sha256:9edfeb2e00517c86dd431a4dd08b4a23ae5d9ef8cf82891753caa03980d4fc5c"},
+    {file = "strawberry_graphql-0.151.0.tar.gz", hash = "sha256:f637641dff8755694ef5534bdf92f206906c54a0d63ccb1516ece8506ee8b545"},
 ]
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
